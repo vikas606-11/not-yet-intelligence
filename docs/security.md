@@ -18,6 +18,7 @@
 - HTTPS enforced in any non-local environment
 - Least-privilege IAM policies when AWS resources are created (Phase 8)
 - File upload validation: type/size checks on resume uploads (PDF/DOCX only, size cap)
+- CORS restricted to an explicit allow-list (`CORS_ALLOWED_ORIGINS`), not wildcard `*`, even in local dev
 
 ## Scanning (introduced when relevant phase begins)
 

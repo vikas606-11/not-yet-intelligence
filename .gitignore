@@ -36,3 +36,8 @@ Thumbs.db
 
 # Docker
 *.pid
+
+# Backend local artifacts
+backend/test.db
+backend/storage/resumes/*
+!backend/storage/resumes/.gitkeep
